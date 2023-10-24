@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 10px 0 purple;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+form > h3{
+    margin-bottom: 20px;
+}
+
+form > input{
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 10px 0 purple;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+form > .procura > .cep{
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 10px 0 purple;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+form > .procura > .botao{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 purple;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.procura{
+    display: flex;
+    flex-direction: row;
+}
